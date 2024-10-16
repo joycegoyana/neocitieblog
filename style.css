@@ -1,8 +1,10 @@
 body { 
     margin: 0; 
+    background-color:#0d0c0c;
 } 
 nav { 
     width: 100%; 
+    
 } 
 ul { 
     margin: 0; 
@@ -19,17 +21,33 @@ li {
     text-align: center; 
 } 
 a { 
-    color: rgb(0, 102, 0); 
+    color: rgb(172, 172, 172); 
     text-decoration: none; 
 } 
 img { 
-    width: 200px 
+    width: 160px 
     
 } 
 #image { 
-    width: 200px 
+    width: 160px 
 } 
 #blankSpace { 
     width: 16%; 
     height: 34px; 
 } 
+homebbtn {
+    width: 200px;
+    height: 200px;
+}
+cdrom {
+    width: 200px;
+    height: 200px;
+}
+aboutbbtn {
+    width: 200px;
+    height: 200px;
+}
+suggestionbox {
+    width: 200px;
+    height: 200px;
+}
