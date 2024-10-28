@@ -2,6 +2,10 @@ body {
     margin: 0; 
     background-color: rgb(0, 0, 0);
     height:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
 } 
 nav { 
     width: 100%; 
@@ -52,18 +56,21 @@ suggestionbox {
     width: 200px;
     height: 200px;
 }
-.container {
-    h2{
-        background: rgb(192, 191, 191);
-            width: 60%;
-            height:max-content;
-            overflow-y: auto;
-            overflow-x: hidden;
-            margin: 200px;
-            border: 10px solid rgb(80, 5, 5);
-            border-top-left-radius: 70px;
-            padding: 50px;
-            font-family: Changa;
-            border-bottom-right-radius: 70px;
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 14px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 200px;
     }
 }
